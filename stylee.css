@@ -1,0 +1,346 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.ana {
+  height: 100vh;
+  width: 100%;
+  background-image: url(confident-good-looking-male-entrepreneur-blue-high-neck-sweater-cross-arms-chest-smirk-sassy-self-assured.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo {
+  color: black;
+  font-size: 36px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span {
+  color: red;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: black;
+  transition: 0.4s;
+}
+
+.buton {
+  background-color: red;
+  color: aliceblue;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 9px 24px;
+  border-radius: 25px;
+  transition: 0.4s;
+}
+
+.buton:hover {
+  transform: scale(1.1);
+}
+
+.icerik {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+h1 {
+  color: black;
+  margin: 20px 0px 20px;
+  font-size: 45px;
+}
+
+h3 {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  color: black;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.btn form {
+  width: 350px;
+  max-width: 100%;
+  position: relative;
+}
+
+.btn form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px;
+  background: red;
+  color: white;
+  border-radius: 20px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.btn form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px grey;
+  top: 4px;
+  right: 6px;
+}
+
+.hakkimda {
+  width: 100%;
+  padding: 100px 0px;
+  background: none;
+}
+
+.hakkimda img {
+  height: 500px;
+  width: 700px;
+}
+
+.konu {
+  width: 550px;
+}
+
+.menu {
+  width: 100%;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.konu h2 {
+  color: black;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.konu h5 {
+  color: black;
+  letter-spacing: 2px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.konu p {
+  color: black;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: red;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 14px 25px;
+  border-radius: 20px;
+  margin-top: 15px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+.servis {
+  background: white;
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.baslik {
+  color: black;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.kart {
+  height: 350px;
+  width: 340px;
+  padding: 20px 35px;
+  background: rgb(38, 58, 66);
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+}
+
+.kart i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 20px 0px;
+  color: red;
+}
+
+h5 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 13px;
+}
+
+.metin p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.kart .bas {
+  background: red;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.kart .bas:hover {
+  background: white;
+  color: black;
+  transition: 0.3s;
+}
+
+.iletisim {
+  width: 100%;
+  height: 280px;
+  background: rgb(38, 58, 66);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.iletisim p {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.butonum {
+  background: red;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 14px 25px;
+  border-radius: 20px;
+  margin-top: 15px;
+  transition: 0.5s;
+}
+
+.butonum:hover {
+  background: white;
+  color: black;
+  transition: 0.3s;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p:nth-child(1) {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 17px;
+  font-weight: bold;
+}
+
+footer p:nth-child(2) {
+  color: black;
+  font-size: 21px;
+  width: 500px;
+  text-align: center;
+  line-height: 23px;
+}
+.sosyal {
+  display: flex;
+}
+
+.sosyal a {
+  height: 45px;
+  width: 45px;
+  font-size: 30px;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(38, 58, 66);
+  color: white;
+  border-radius: 50%;
+  margin: 22px 10px;
+}
+
+.fa-linkedin:hover {
+  color: deepskyblue;
+}
+
+.fa-github:hover {
+  color: red;
+}
+
+.fa-instagram:hover {
+  color: red;
+}
